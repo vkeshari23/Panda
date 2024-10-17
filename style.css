@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+}
+
+.panda h2{
+    font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.image-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container{
+    background-image: url("https://cdn.pixabay.com/photo/2015/10/28/15/08/panda-1010650_640.png");
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.card h3{
+    color: #99ae6f;
+    margin: 10px 0 5px;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.card p{
+    color: #505d36;
+    margin: 16px 0;
+    font-size: 18px;
+}
+
+.rating{
+    margin-top: 18px;
+    
+}
+
+.rating span{
+    font-size: 26px;
+    color: #333;
+    font-weight: 700;
+}
+
+.card strong{
+    color: #000;
+    font-size: 16px;
+}
